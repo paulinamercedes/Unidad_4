@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Laptop\\Desktop\\UNIDAD 4\\Unidad_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F2F634D-E11B-4EE8-8E02-7C6E4624B1F5}|Proyecto_Unidad4\\Proyecto_Unidad4.csproj|c:\\users\\laptop\\desktop\\unidad 4\\unidad_4\\proyecto_unidad4\\formpadre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F2F634D-E11B-4EE8-8E02-7C6E4624B1F5}|Proyecto_Unidad4\\Proyecto_Unidad4.csproj|solutionrelative:proyecto_unidad4\\formpadre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F2F634D-E11B-4EE8-8E02-7C6E4624B1F5}|Proyecto_Unidad4\\Proyecto_Unidad4.csproj|c:\\users\\laptop\\desktop\\unidad 4\\unidad_4\\proyecto_unidad4\\formpadre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2F634D-E11B-4EE8-8E02-7C6E4624B1F5}|Proyecto_Unidad4\\Proyecto_Unidad4.csproj|solutionrelative:proyecto_unidad4\\formpadre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F2F634D-E11B-4EE8-8E02-7C6E4624B1F5}|Proyecto_Unidad4\\Proyecto_Unidad4.csproj|c:\\users\\laptop\\desktop\\unidad 4\\unidad_4\\proyecto_unidad4\\formimpuestos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F2F634D-E11B-4EE8-8E02-7C6E4624B1F5}|Proyecto_Unidad4\\Proyecto_Unidad4.csproj|solutionrelative:proyecto_unidad4\\formimpuestos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +22,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPadre.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\UNIDAD 4\\Unidad_4\\Proyecto_Unidad4\\FormPadre.cs",
-              "RelativeDocumentMoniker": "Proyecto_Unidad4\\FormPadre.cs",
-              "ToolTip": "C:\\Users\\Laptop\\Desktop\\UNIDAD 4\\Unidad_4\\Proyecto_Unidad4\\FormPadre.cs",
-              "RelativeToolTip": "Proyecto_Unidad4\\FormPadre.cs",
-              "ViewState": "AgIAABAAAAAAZWZmZmYswBIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T20:46:13.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormPadre.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\UNIDAD 4\\Unidad_4\\Proyecto_Unidad4\\FormPadre.cs",
-              "RelativeDocumentMoniker": "Proyecto_Unidad4\\FormPadre.cs",
-              "ToolTip": "C:\\Users\\Laptop\\Desktop\\UNIDAD 4\\Unidad_4\\Proyecto_Unidad4\\FormPadre.cs [Design]",
-              "RelativeToolTip": "Proyecto_Unidad4\\FormPadre.cs [Design]",
+              "Title": "FormImpuestos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\UNIDAD 4\\Unidad_4\\Proyecto_Unidad4\\FormImpuestos.cs",
+              "RelativeDocumentMoniker": "Proyecto_Unidad4\\FormImpuestos.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\UNIDAD 4\\Unidad_4\\Proyecto_Unidad4\\FormImpuestos.cs [Design]",
+              "RelativeToolTip": "Proyecto_Unidad4\\FormImpuestos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T17:57:11.927Z",
+              "WhenOpened": "2025-07-01T22:50:49.766Z",
               "EditorCaption": " [Design]"
             }
           ]

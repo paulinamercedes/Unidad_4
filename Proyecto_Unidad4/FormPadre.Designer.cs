@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPadre));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.formulario1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,7 +53,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(13, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(1245, 46);
+            this.menuStrip1.Size = new System.Drawing.Size(1245, 45);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,7 +63,7 @@
             this.formulario1ToolStripMenuItem});
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(203, 38);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(203, 37);
             this.toolStripMenuItem1.Text = "Formulario 1";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -79,7 +80,7 @@
             this.conversorToolStripMenuItem});
             this.divisasToolStripMenuItem.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisasToolStripMenuItem.Name = "divisasToolStripMenuItem";
-            this.divisasToolStripMenuItem.Size = new System.Drawing.Size(296, 38);
+            this.divisasToolStripMenuItem.Size = new System.Drawing.Size(296, 37);
             this.divisasToolStripMenuItem.Text = "Conversor de divisas";
             // 
             // conversorToolStripMenuItem
@@ -95,13 +96,13 @@
             this.calcularToolStripMenuItem});
             this.calculoDeImpuestosToolStripMenuItem.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculoDeImpuestosToolStripMenuItem.Name = "calculoDeImpuestosToolStripMenuItem";
-            this.calculoDeImpuestosToolStripMenuItem.Size = new System.Drawing.Size(303, 38);
+            this.calculoDeImpuestosToolStripMenuItem.Size = new System.Drawing.Size(303, 37);
             this.calculoDeImpuestosToolStripMenuItem.Text = "Calculo de impuestos";
             // 
             // calcularToolStripMenuItem
             // 
             this.calcularToolStripMenuItem.Name = "calcularToolStripMenuItem";
-            this.calcularToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.calcularToolStripMenuItem.Size = new System.Drawing.Size(260, 44);
             this.calcularToolStripMenuItem.Text = "Calcular";
             this.calcularToolStripMenuItem.Click += new System.EventHandler(this.calcularToolStripMenuItem_Click);
             // 
@@ -111,13 +112,13 @@
             this.fibonacciToolStripMenuItem});
             this.serieFibonacciToolStripMenuItem.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.serieFibonacciToolStripMenuItem.Name = "serieFibonacciToolStripMenuItem";
-            this.serieFibonacciToolStripMenuItem.Size = new System.Drawing.Size(222, 38);
+            this.serieFibonacciToolStripMenuItem.Size = new System.Drawing.Size(222, 37);
             this.serieFibonacciToolStripMenuItem.Text = "serie Fibonacci";
             // 
             // fibonacciToolStripMenuItem
             // 
             this.fibonacciToolStripMenuItem.Name = "fibonacciToolStripMenuItem";
-            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(271, 44);
             this.fibonacciToolStripMenuItem.Text = "Fibonacci";
             this.fibonacciToolStripMenuItem.Click += new System.EventHandler(this.fibonacciToolStripMenuItem_Click);
             // 
@@ -129,6 +130,7 @@
             this.ClientSize = new System.Drawing.Size(1245, 578);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Century Schoolbook", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormPadre";
