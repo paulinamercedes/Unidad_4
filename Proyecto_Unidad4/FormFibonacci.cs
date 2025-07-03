@@ -16,5 +16,40 @@ namespace Proyecto_Unidad4
         {
             InitializeComponent();
         }
+
+        private void btnGenerar_Click(object sender, EventArgs e)
+        {
+            int Limite;
+
+
+            //validacion del numero ingresado 
+            if (!int.TryParse(tbLimite.Text, out Limite) || Limite < 0)
+            {
+                MessageBox.Show("Favor de ingresar un numero entero positivo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
+            tbResultado.Clear(); //para limpiar
+
+            int a = 0, b = 1;
+
+            tbResultado.AppendText(" La seri Fibonacci es hasta " + Limite + ":\r\n");
+
+            while (a <= Limite)
+            {
+                tbResultado.AppendText(a + "\r\n");   //para que  cada nmero este en una linea 
+                int temp = a + b; a = b; b = temp;
+            }
+
+
+
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

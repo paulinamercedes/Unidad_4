@@ -24,8 +24,6 @@ namespace Proyecto_Unidad4
 
 
         }
-      
-
         private void btnConvertir_Click(object sender, EventArgs e)
         {
             double cantidad;
@@ -35,9 +33,10 @@ namespace Proyecto_Unidad4
                 return;
             }
 
-            string origen = cmbMOrigen.SelectedItem.ToString();
-            string destino = cmbMDestino.SelectedItem.ToString();
+            string origen = cmbMOrigen.SelectedItem.ToString(); //comboBox de entrada
+            string destino = cmbMDestino.SelectedItem.ToString();  //comboBox de salida
 
+            //variable que representara el valor convertido en dólares
             double valorEnDolares = 0;
 
 
@@ -48,10 +47,10 @@ namespace Proyecto_Unidad4
                     valorEnDolares = cantidad;
                     break;
                 case "Euro":
-                    valorEnDolares = cantidad * 1.1; // 1 euro son 1.1 dólares
+                    valorEnDolares = cantidad * 1.1; // 1 euro son 1.1 dolares
                     break;
                 case "Peso Dominicano":
-                    valorEnDolares = cantidad / 58.0; // 1 dólar son 58 pesos
+                    valorEnDolares = cantidad / 58.0; // 1 dolar son 58 pesos
                     break;
             }
 
@@ -70,13 +69,13 @@ namespace Proyecto_Unidad4
                     resultado = valorEnDolares * 58.0;
                     break;
             }
-
-            lblResultado.Text = $"Resultado: {resultado:F2} {destino}";
+             
+            lblResultado.Text = $"Resultado: {resultado:F2} {destino}";  // el F2 son la cantidad de decimales despues del punto
         }
 
+        private void FormDivisas_Load(object sender, EventArgs e)
+        {
 
-
-
-
+        }
     }
 }

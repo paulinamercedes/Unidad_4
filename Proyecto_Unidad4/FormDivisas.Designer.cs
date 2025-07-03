@@ -54,6 +54,7 @@
             // 
             // tbCantidadInicial
             // 
+            this.tbCantidadInicial.BackColor = System.Drawing.Color.LightCyan;
             this.tbCantidadInicial.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCantidadInicial.Location = new System.Drawing.Point(371, 216);
             this.tbCantidadInicial.Name = "tbCantidadInicial";
@@ -73,6 +74,7 @@
             // 
             // cmbMOrigen
             // 
+            this.cmbMOrigen.BackColor = System.Drawing.Color.LightCyan;
             this.cmbMOrigen.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMOrigen.FormattingEnabled = true;
             this.cmbMOrigen.Location = new System.Drawing.Point(371, 267);
@@ -85,7 +87,7 @@
             this.lblMDestino.AutoSize = true;
             this.lblMDestino.BackColor = System.Drawing.Color.Transparent;
             this.lblMDestino.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMDestino.Location = new System.Drawing.Point(37, 328);
+            this.lblMDestino.Location = new System.Drawing.Point(627, 275);
             this.lblMDestino.Name = "lblMDestino";
             this.lblMDestino.Size = new System.Drawing.Size(276, 33);
             this.lblMDestino.TabIndex = 4;
@@ -93,18 +95,20 @@
             // 
             // cmbMDestino
             // 
+            this.cmbMDestino.BackColor = System.Drawing.Color.LightCyan;
             this.cmbMDestino.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMDestino.FormattingEnabled = true;
-            this.cmbMDestino.Location = new System.Drawing.Point(371, 320);
+            this.cmbMDestino.Location = new System.Drawing.Point(909, 267);
             this.cmbMDestino.Name = "cmbMDestino";
-            this.cmbMDestino.Size = new System.Drawing.Size(219, 41);
+            this.cmbMDestino.Size = new System.Drawing.Size(275, 41);
             this.cmbMDestino.TabIndex = 5;
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.LightCyan;
             this.lblResultado.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(1012, 223);
+            this.lblResultado.Location = new System.Drawing.Point(878, 219);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(45, 33);
             this.lblResultado.TabIndex = 6;
@@ -114,7 +118,7 @@
             // 
             this.labelR.AutoSize = true;
             this.labelR.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelR.Location = new System.Drawing.Point(771, 223);
+            this.labelR.Location = new System.Drawing.Point(714, 219);
             this.labelR.Name = "labelR";
             this.labelR.Size = new System.Drawing.Size(158, 33);
             this.labelR.TabIndex = 7;
@@ -124,7 +128,7 @@
             // 
             this.btnConvertir.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnConvertir.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvertir.Location = new System.Drawing.Point(777, 275);
+            this.btnConvertir.Location = new System.Drawing.Point(517, 423);
             this.btnConvertir.Name = "btnConvertir";
             this.btnConvertir.Size = new System.Drawing.Size(237, 68);
             this.btnConvertir.TabIndex = 8;
@@ -136,7 +140,7 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(187, 32);
+            this.label1.Location = new System.Drawing.Point(308, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(742, 114);
             this.label1.TabIndex = 9;
@@ -149,7 +153,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1170, 526);
+            this.ClientSize = new System.Drawing.Size(1377, 526);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.labelR);
@@ -163,6 +167,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormDivisas";
             this.Text = "Conversor";
+            this.Load += new System.EventHandler(this.FormDivisas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
