@@ -29,7 +29,13 @@ namespace Proyecto_Unidad4
             double cantidad;
             if (!double.TryParse(tbCantidadInicial.Text, out cantidad))
             {
-                MessageBox.Show("Ingresar un valos valido");
+                MessageBox.Show("Ingresar un valor valido");
+                return;
+            }
+
+            if (cantidad < 0) //si el valor es negativo, envia un mensaje
+            {
+                MessageBox.Show("No se permiten cantidades negativas.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -70,7 +76,7 @@ namespace Proyecto_Unidad4
                     break;
             }
              
-            lblResultado.Text = $"Resultado: {resultado:F2} {destino}";  // el F2 son la cantidad de decimales despues del punto
+            lblResultado.Text = $"{resultado:F2} {destino}";  // el F2 son la cantidad de decimales despues del punto
         }
 
         private void FormDivisas_Load(object sender, EventArgs e)
