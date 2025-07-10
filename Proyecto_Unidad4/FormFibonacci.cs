@@ -51,5 +51,21 @@ namespace Proyecto_Unidad4
         {
 
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(tbResultado.Text) && string.IsNullOrWhiteSpace(tbLimite.Text))
+            {
+
+                MessageBox.Show("La caja de texto ya está vacía.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            else
+
+            {
+                tbResultado.Clear();
+                tbLimite.Clear();
+            }
+        }
     }
 }

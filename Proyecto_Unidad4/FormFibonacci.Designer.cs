@@ -34,13 +34,14 @@
             this.btnGenerar = new System.Windows.Forms.Button();
             this.tbResultado = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblLimite
             // 
             this.lblLimite.BackColor = System.Drawing.Color.Transparent;
             this.lblLimite.Font = new System.Drawing.Font("Century Schoolbook", 13.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLimite.Location = new System.Drawing.Point(158, 251);
+            this.lblLimite.Location = new System.Drawing.Point(131, 239);
             this.lblLimite.Name = "lblLimite";
             this.lblLimite.Size = new System.Drawing.Size(168, 56);
             this.lblLimite.TabIndex = 0;
@@ -50,7 +51,7 @@
             // tbLimite
             // 
             this.tbLimite.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbLimite.Location = new System.Drawing.Point(359, 261);
+            this.tbLimite.Location = new System.Drawing.Point(336, 239);
             this.tbLimite.Name = "tbLimite";
             this.tbLimite.Size = new System.Drawing.Size(100, 46);
             this.tbLimite.TabIndex = 1;
@@ -60,7 +61,7 @@
             // 
             this.btnGenerar.BackColor = System.Drawing.Color.MistyRose;
             this.btnGenerar.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerar.Location = new System.Drawing.Point(239, 335);
+            this.btnGenerar.Location = new System.Drawing.Point(186, 298);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(187, 87);
             this.btnGenerar.TabIndex = 2;
@@ -72,7 +73,7 @@
             // 
             this.tbResultado.BackColor = System.Drawing.Color.MistyRose;
             this.tbResultado.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbResultado.Location = new System.Drawing.Point(549, 251);
+            this.tbResultado.Location = new System.Drawing.Point(547, 239);
             this.tbResultado.Multiline = true;
             this.tbResultado.Name = "tbResultado";
             this.tbResultado.ReadOnly = true;
@@ -91,6 +92,18 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Serie Fibonacci";
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.BackColor = System.Drawing.Color.MistyRose;
+            this.btnLimpiar.Font = new System.Drawing.Font("Century Schoolbook", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(186, 409);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(185, 86);
+            this.btnLimpiar.TabIndex = 5;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
             // FormFibonacci
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -98,6 +111,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1101, 579);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbResultado);
             this.Controls.Add(this.btnGenerar);
@@ -117,5 +131,6 @@
         private System.Windows.Forms.Button btnGenerar;
         private System.Windows.Forms.TextBox tbResultado;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
