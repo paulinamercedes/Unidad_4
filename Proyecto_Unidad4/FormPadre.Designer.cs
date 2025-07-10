@@ -43,6 +43,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Thistle;
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -53,7 +54,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(13, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(1245, 48);
+            this.menuStrip1.Size = new System.Drawing.Size(1153, 45);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,7 +64,7 @@
             this.formulario1ToolStripMenuItem});
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(203, 40);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(203, 37);
             this.toolStripMenuItem1.Text = "Formulario 1";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -80,7 +81,7 @@
             this.conversorToolStripMenuItem});
             this.divisasToolStripMenuItem.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisasToolStripMenuItem.Name = "divisasToolStripMenuItem";
-            this.divisasToolStripMenuItem.Size = new System.Drawing.Size(296, 40);
+            this.divisasToolStripMenuItem.Size = new System.Drawing.Size(296, 37);
             this.divisasToolStripMenuItem.Text = "Conversor de divisas";
             // 
             // conversorToolStripMenuItem
@@ -96,7 +97,7 @@
             this.calcularToolStripMenuItem});
             this.calculoDeImpuestosToolStripMenuItem.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculoDeImpuestosToolStripMenuItem.Name = "calculoDeImpuestosToolStripMenuItem";
-            this.calculoDeImpuestosToolStripMenuItem.Size = new System.Drawing.Size(303, 40);
+            this.calculoDeImpuestosToolStripMenuItem.Size = new System.Drawing.Size(303, 37);
             this.calculoDeImpuestosToolStripMenuItem.Text = "Calculo de impuestos";
             // 
             // calcularToolStripMenuItem
@@ -112,13 +113,13 @@
             this.fibonacciToolStripMenuItem});
             this.serieFibonacciToolStripMenuItem.Font = new System.Drawing.Font("Century Schoolbook", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.serieFibonacciToolStripMenuItem.Name = "serieFibonacciToolStripMenuItem";
-            this.serieFibonacciToolStripMenuItem.Size = new System.Drawing.Size(228, 40);
+            this.serieFibonacciToolStripMenuItem.Size = new System.Drawing.Size(228, 37);
             this.serieFibonacciToolStripMenuItem.Text = "Serie Fibonacci";
             // 
             // fibonacciToolStripMenuItem
             // 
             this.fibonacciToolStripMenuItem.Name = "fibonacciToolStripMenuItem";
-            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.fibonacciToolStripMenuItem.Size = new System.Drawing.Size(271, 44);
             this.fibonacciToolStripMenuItem.Text = "Fibonacci";
             this.fibonacciToolStripMenuItem.Click += new System.EventHandler(this.fibonacciToolStripMenuItem_Click);
             // 
@@ -126,8 +127,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(1245, 578);
+            this.BackColor = System.Drawing.Color.LightCoral;
+            this.ClientSize = new System.Drawing.Size(1153, 609);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Century Schoolbook", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
